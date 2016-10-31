@@ -1,0 +1,50 @@
+.list-item_section {
+  list-style: outside none none;
+  position: relative;
+}
+.list-item_section::after {
+  border-right: 1px solid;
+  content: "";
+  height: 100%;
+  left: 68px;
+  position: absolute;
+  top: 0;
+}
+
+.round_border {
+  background: #696969 none repeat scroll 0 0;
+  border: 4px solid #cccccc;
+  border-radius: 100%;
+  content: "";
+  height: 20px;
+  left: 59px;
+  position: absolute;
+  right: 0;
+  width: 20px;
+  z-index: 999;
+}
+.year {
+  width: 54px;
+}
+.list_discription {
+  float: left;
+  margin-left: 120px;
+  position: relative;
+  text-align: justify;
+  top: -18px;
+  width: calc(100% - 54px);
+}
+
+.border_dashed {
+  border-top: 1px dashed #cccccc;
+  content: "";
+  left: 79px;
+  position: absolute;
+  transform: translateY(10px);
+  width: 37px;
+  z-index: -3;
+}
+.main-list {
+  margin-top: 43px;
+  position: relative;
+}
